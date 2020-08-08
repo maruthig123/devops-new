@@ -1,7 +1,7 @@
 node {
 state('Git Checkout')
   {
-https://github.com/maruthig123/devops-new/ "
+'https://github.com/maruthig123/devops-new/'
   }
 state('Compile and package')
 {
