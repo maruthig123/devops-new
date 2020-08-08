@@ -6,7 +6,6 @@ stage('Git Checkout')
 stage('Compile and package')
 {
   def mvnHome = tool name: 'maven3', type: 'maven'
-  def mvn = "${mvnHome}/bin/mvn"
-  sh "${mvn} clean package"
+  sh "${mvnHome}/bin/mvn clean package"
 }
 }
