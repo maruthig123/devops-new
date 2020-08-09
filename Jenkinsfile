@@ -1,7 +1,7 @@
 node {
 stage('Git Checkout')
   {
-'https://github.com/maruthig123/devops-new/'
+'https://github.com/javahometech/my-app'
   }
 stage('Compile and package')
 {
